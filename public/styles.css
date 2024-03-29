@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+
+    font-family: 'Arial', sans-serif;
+
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+body {
+    height: 100%;
+
+    background-color: #f0f0f0;
+    color: #333;
+
+    line-height: 1.6;
+}
+
+header {
+    padding: 1rem;
+
+    background-color: #333;
+    color: #fff;
+
+    text-align: center;
+}
+
+.header-menu {
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    list-style: none;
+}
+
+.submenu-link {
+    color: #C7C7FF;
+}
+
+.main {
+    padding: 1.25rem;
+
+
+    overflow-x: hidden;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+#login-form {
+    text-align: center;
+}
+
+.login {
+    max-width: 25rem;
+    margin: 1.25rem auto;
+    padding: 1.25rem; 
+    border-radius: 0.3125rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+
+    background-color: #fff;
+    
+}
+
+.login-title, .welcome-title, .group-title {
+    text-align: center;
+
+    color: #333;
+}
+
+.login-input, .outgoing {
+    margin-bottom: 1.25rem;
+}
+
+input[type="text"], .text-input {
+    width: 50%;
+    padding: 0.625rem;
+    margin-top: 0.3125rem; 
+    border-radius: 0.3125rem; 
+    border: 1px solid #ccc;
+}
+
+.send-btn, .login-btn, .logout-btn {
+    width: 50%;
+    padding: 0.625rem 1.25rem;
+    border: none;
+    background-color: #017bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.3125rem;
+    font-size: 0.875rem;
+}
+
+.login-btn {
+    width: 100%;
+}
+
+.send-btn:hover, .login-btn:hover, .logout-btn:hover {
+    background-color: #0056b3;
+}
+
+.chat-group, .chat-app {
+    margin-bottom: 1.25rem;
+}
+
+.chat-group {
+    text-align: center;
+}
+
+.users {
+    list-style: none;
+}
+
+.show-message, .user-list {
+    background-color: #fff;
+    padding: 1.25rem; 
+    min-height: 12.5rem; 
+    border-radius: 0.3125rem; 
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+
+.outgoing {
+    text-align: center;
+}
+
+.senders {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+}
+
+.sender-name {
+    display: inline-block; 
+    vertical-align: top;
+}
+
+.sender-text {
+    padding-left: 0.5rem;
+
+    display: inline-block; 
+    vertical-align: top;
+    word-break: break-word;
+}
+
+.logout {
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-menu {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer-menu li a {
+    color: #C7C7FF
+}
+
+.loading-hidden {
+    display: none;
+}
+
+.loading-visible {
+    display: block;
+
+    color: #017bff;
+    text-align: center;
+}
+
+.error {
+    font-size: 0.8rem;
+
+    color: red;
+}
